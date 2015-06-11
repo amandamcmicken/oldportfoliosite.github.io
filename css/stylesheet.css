@@ -1,0 +1,29 @@
+.uk-navbar{
+    background: #fff; 
+}
+@import url(http://nicholastodor.com/sf/usesf.css);
+.brand{
+color: #000;
+background-color: #00ff00;
+font-family: 'Cousine', ;
+font-weight: 700;
+padding: 3px;
+font-size: .8em;
+}
+.uk-navbar-nav>li>a{
+   font-family: 'Cousine', ;
+    font-size: .8em;
+}
+.uk-overlay-background {
+  background: rgba(0,255,0,.9);
+}
+figcaption{
+    text-align: center;
+}
+p{
+    margin-top: 50%;
+    top: -10px;
+    position: relative;
+    font-family: 'Cousine', ;
+    color: black;
+}
