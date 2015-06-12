@@ -1,17 +1,23 @@
+@font-face {
+  font-family: 'Cousine';
+  src: url('fonts/Fonts/Cousine/Cousine-Regular.ttf');
+  src: url('fonts/Fonts/Cousine/Cousine-Italic.ttf');
+  src: url('fonts/Fonts/Cousine/Cousine-Bold.ttf');
+  src: url('fonts/Fonts/Cousine/Cousine-BoldItalic.ttf');
+}
 .uk-navbar{
     background: #fff; 
 }
 @import url(http://nicholastodor.com/sf/usesf.css);
 .brand{
 color: #000;
-background-color: #00ff00;
-font-family: 'Cousine', ;
-font-weight: 700;
+/*background-color: #00ff00;*/
+font-family: 'Cousine' ;
 padding: 3px;
 font-size: .8em;
 }
 .uk-navbar-nav>li>a{
-   font-family: 'Cousine', ;
+   font-family: 'Cousine' ;
     font-size: .8em;
 }
 .uk-overlay-background {
@@ -24,7 +30,7 @@ p{
     margin-top: 50%;
     top: -10px;
     position: relative;
-    font-family: 'Cousine', ;
+    font-family: 'Cousine' ;
     color: black;
 }
 .maincontainer {
@@ -32,10 +38,14 @@ p{
 }
 @media screen and (min-width: 960px) {
     .maincontainer {
-        margin: 20px;
+        margin: auto;
+        max-width: 960px;
     }
 }
 .projectcontainer{
     max-width: 960px;
     margin: auto;
+}
+.uk-navbar-brand{
+    padding: 0 0 0 0;
 }
